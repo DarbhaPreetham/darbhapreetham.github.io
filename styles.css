@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #223366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 100px; /* Adjust padding as needed */
+    text-align: center;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* About Section */
+#about {
+    background: linear-gradient(to bottom, #5588cc, #aad0ff);
+}
+
+/* Experience Section */
+#experience {
+    background: linear-gradient(to bottom, #5588cc, #aad0ff);
+}
+
+/* Education Section */
+#education {
+    background: linear-gradient(to bottom, #5588cc, #aad0ff);
+}
+
+/* Certifications Section */
+#certifications {
+    background: linear-gradient(to bottom, #5588cc, #aad0ff);
+}
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(to bottom, #5588cc, #aad0ff);
+}
+
+/* Project Section */
+#project {
+    background: linear-gradient(to bottom, #5588cc, #aad0ff);
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(to bottom, #5588cc, #aad0ff);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #223366;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links li a {
+    color: #ffffff;
+    text-decoration: none;
+}
